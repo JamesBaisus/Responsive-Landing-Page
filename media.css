@@ -1,0 +1,39 @@
+@media (max-width: 931px) {
+  .heroTextCon h3 {
+    font-size: 0.9rem;
+  }
+
+  .heroTextCon h1 {
+    font-size: 2rem;
+  }
+
+  .heroTextCon button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+@media (max-width: 1128px) {
+  .signupCon {
+    text-align: center;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .signup {
+    padding: 3rem 0rem;
+  }
+
+  .rightSide button {
+    width: 100%;
+  }
+}
